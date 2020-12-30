@@ -1,0 +1,21 @@
+{
+    "name": "acewill/sign",
+    "description": "api sign method",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tangli",
+            "email": "tangli.bj@acewill.cn"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require-dev" : {
+    },
+    "autoload":{
+        "psr-4":{
+            "AcewillGateway\\Handle\\":"src/Handle"
+        }
+    }
+}
